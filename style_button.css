@@ -1,0 +1,54 @@
+.container-fluid, .row, .col-sm-10 {
+    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    overflow: visible;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#btn{
+    background: #fea;
+    padding: 15px;
+    font-family: arial;   
+}
+
+#toggleWireframe{
+    background: #fea;
+    padding: 15px;
+    font-family: arial;   
+}
+
+#Rotate{
+    background: #fea;
+    padding: 15px;
+    font-family: arial;   
+}
+
+#threeContainer {
+    width: 100%;
+    height: 100vh; position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+
+#gui-container {
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    z-index: 1000;
+}
+
+ img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    }
+    
+    img.clicked {
+    transform: scale(1.5);
+    }
