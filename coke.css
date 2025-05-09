@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_3d_image {
-    background-image: url(assets/images/30323299680286.avif);
+    background-image: url(assets/images/main_3D.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 201px;
@@ -255,7 +255,7 @@ There is plenty more styling to do than indicated here, in mobile it still defau
     }
 
     #main_3d_image {
-        background-image: url(assets/images/Fanta_768.jpg);
+        background-image: url(assets/images/main_3D_768.jpg);
         background-repeat: no-repeat;
         height: 288px;
     }
@@ -313,7 +313,7 @@ There is plenty more styling to do than indicated here, in mobile it still defau
     }
 
     #main_3d_image {
-        background-image: url(assets/images/Fanta_970.jpg);
+        background-image: url(assets/images/main_3D_970.jpg);
         background-repeat: no-repeat;
         height: 363px;
     }
@@ -431,7 +431,7 @@ There is plenty more styling to do than indicated here, in mobile it still defau
     }
 
     #main_3d_image {
-        background-image: url(assets/images/Fanta_1400a.jpg);
+        background-image: url(assets/images/main_3D_1400a.jpg);
         background-repeat: no-repeat;
         height: 500px;
     }

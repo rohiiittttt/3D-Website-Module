@@ -27,7 +27,7 @@ function init() {
 
   // Load a sound and set it as the buffer for the audio object
     const audioLoader =  new THREE.AudioLoader ();
-    audioLoader.load('assets/Toing Sound (3).mp3', function (buffer) {
+    audioLoader.load('assets/opening-a-fizzy-can-35608.mp3', function (buffer) {
         sound.setBuffer(buffer);
         sound.setLoop(false);
         sound.setVolume(1.0);
@@ -92,7 +92,7 @@ controls.update();
 mode = 'open';
 const btn = document.getElementById("btn");
 btn.addEventListener('click', function() {
-if (actions.length === 1){
+if (actions.length === 2){
     if (mode=== "open") {
         actions.forEach(action => {
                 action.timeScale = 1;
@@ -130,7 +130,7 @@ rotateBtn.addEventListener('click', function () {
 
 // Load the glTF model
 const loader = new THREE.GLTFLoader();
-loader.load(assetPath + 'assets/cup1.glb', function(gltf){
+loader.load(assetPath + 'assets/coke.glb', function(gltf){
     const model = gltf.scene;
     scene.add(model);
 

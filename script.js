@@ -41,7 +41,7 @@ lights = {};
 
 lights.spot = new THREE.SpotLight();
 lights.spot.visible = true;
-lights.spot.position.set(1000,2000,5000);
+lights.spot.position.set(1000,20,8000);
 lights.spotHelper = new THREE.SpotLightHelper(lights.spot);
 lights.spotHelper.visible = false;
 scene.add(lights.spotHelper);
